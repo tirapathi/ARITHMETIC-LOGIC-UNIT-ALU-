@@ -1,0 +1,13 @@
+module alu(input a,b,input [3:0]opcode,output reg y);
+always @(*)
+begin
+case(opcode)
+3'b001: y=a+b;
+3'b010: y=a-b;
+3'b011: y=a&b;
+3'b100: y=a|b;
+3'b101: y=(a&(~b));
+default y=3'b000;
+endcase
+end
+endmodule
