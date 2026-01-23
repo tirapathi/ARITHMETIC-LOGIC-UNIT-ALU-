@@ -1,15 +1,5 @@
 # ARITHMETIC-LOGIC-UNIT-ALU
 
-*COMPANY*: CODTECH IT SOLUTIONS PVT LTD
-
-*NAME*: GUJJULA TIRUPATHI REDDY
-
-*INTERN ID*: CTIS0865
-
-*DOMAIN*: VLSI
-
-*DURATION* 24 WEEKS
-
 *DESCRIPTION*:
 The Arithmetic Logic Unit (ALU) is one of the most important components in any digital system, including microprocessors, embedded controllers, and programmable logic devices. It performs all arithmetic and logical operations required by the processor. In this project, a basic 8-bit ALU was designed using Verilog hardware description language, supporting five key operations: Addition, Subtraction, AND, OR, and AND-NOT. The objective of the project was to understand digital design principles, combinational logic implementation, and functional verification through simulation.
 The ALU designed here is purely combinational, meaning outputs respond immediately to changes in inputs without requiring a clock. Two 8-bit operands, A and B, and a 3-bit opcode are provided as inputs. The opcode determines the operation to be performed. For example, opcode 000 corresponds to addition, 001 to subtraction, 010 to logical AND, 011 to OR, and 100 to AND-NOT operation, which computes A AND (NOT B). The output Y is also 8 bits wide and updates in real time based on the selected operation.
